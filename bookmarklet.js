@@ -1,3 +1,1 @@
-(function() {
-  alert('hello world out there'); 
-});
+alert('hello world out there'); 
