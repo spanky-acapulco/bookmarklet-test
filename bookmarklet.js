@@ -1,3 +1,3 @@
-javascript: (function() {
+(function() {
   alert('hello world out there'); 
 });
