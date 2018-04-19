@@ -9,4 +9,4 @@ javascript: (function(e, a, g, h, f, c, b, d) {
                         f(c).remove()
                     }
                 };      
-                a.documentElement.childNodes[0].appendChild(c) } })(window, document, "3.3.1.", function($, L) { alert('hello'); });
+                a.documentElement.childNodes[0].appendChild(c) } })(window, document, "3.3.1.", function($, L) { alert('hello world out there'); });
