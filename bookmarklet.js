@@ -7,7 +7,7 @@
 const meta = document.documentElement.outerHTML;
 const body = document.documentElement.innerHTML;
 const html = meta + body;
-const regex = /<(.*)(undefined|NaN|null)(.*)/gmi;
+const regex = /(undefined|NaN|null)/gm;
 
 const matches = html.match(regex);
 const numberOfListItems = (html.match(regex)||[]).length;
