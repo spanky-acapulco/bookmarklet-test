@@ -71,7 +71,7 @@ const css = `
     max-width: 80vw;
     margin: 0 auto;
     padding: 1rem;
-    z-index: 1;
+    z-index: 2147483647;
     color: #000000;
     background-color: #1ea0d6; 
   }
